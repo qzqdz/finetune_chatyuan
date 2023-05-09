@@ -23,9 +23,13 @@ train_info_args = {
     'data_backend': 'record',
     'model_type': 't5',
     # 预训练模型路径 , 从0训练，则置空
-    'model_name_or_path': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v1',
-    'tokenizer_name': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v1',
-    'config_name': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v1/config.json',
+    'model_name_or_path': 'E:/model/white_model/chatyuan',
+    'tokenizer_name': 'E:/model/white_model/chatyuan',
+    'config_name': 'E:/model/white_model/chatyuan/config.json',
+
+    # 'model_name_or_path': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v1',
+    # 'tokenizer_name': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v1',
+    # 'config_name': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v1/config.json',
     # 'model_name_or_path': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v2',
     # 'tokenizer_name': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v2',
     # 'config_name': '/data/nlp/pre_models/torch/t5/ChatYuan-large-v2/config.json',
