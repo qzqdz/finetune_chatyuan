@@ -40,7 +40,7 @@ class MySimpleModelCheckpoint(SimpleModelCheckpoint):
 
         model: transformers.T5ForConditionalGeneration
         if pl_module.lora_args.with_lora: # lora 从权重加载模型
-            model = pl_module.backbone.model.model
+            model = pl_module.backbone.model.yuan_model
             model.to(device)
             model.eval()
         else:

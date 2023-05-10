@@ -19,5 +19,5 @@ class MyTransformer(TransformerForSeq2SeqLM, with_pl=True):
 
     def get_t5_model(self) -> T5ForConditionalGeneration:
         if self.lora_args is not None and self.lora_args.with_lora:
-            return self.backbone.model.model
+            return self.backbone.model.yuan_model
         return self.backbone.model

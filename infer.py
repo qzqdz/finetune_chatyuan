@@ -61,7 +61,8 @@ def answer(text, sample=True, top_p=1, temperature=0.7):
 # input_list = [input_text]
 
 # for i, input_text in enumerate(input_list):
-#   input_text = "用户：" + input_text + "\n小元："
+
 #   print(f"示例{i}".center(50, "="))
+#   input_text = "用户：" + input_text + "\n小元："
 #   output_text = answer(input_text)
 #   print(f"{input_text}{output_text}")
