@@ -1,0 +1,33 @@
+model_args: !!python/object:deep_training.data_helper.training_args.ModelArguments
+  cache_dir: null
+  config_name: E:/model/white_model/chatyuan/config.json
+  config_overrides: null
+  do_lower_case: null
+  model_name_or_path: E:/model/white_model/chatyuan
+  model_revision: main
+  model_type: t5
+  tokenizer_name: E:/model/white_model/chatyuan
+  use_auth_token: false
+  use_fast_tokenizer: null
+training_args: !!python/object:deep_training.data_helper.training_args.TrainingArguments
+  adam_epsilon: 1.0e-08
+  adv: null
+  eval_batch_size: 2
+  gradient_accumulation_steps: 1
+  hierarchical_position: null
+  learning_rate: 5.0e-05
+  learning_rate_for_task: 5.0e-05
+  max_epochs: 3
+  max_grad_norm: 1.0
+  max_steps: -1
+  optimizer: lion
+  optimizer_betas: !!python/tuple
+  - 0.9
+  - 0.999
+  scheduler: null
+  scheduler_type: linear
+  seed: 42
+  test_batch_size: 2
+  train_batch_size: 4
+  warmup_steps: 0
+  weight_decay: 0
